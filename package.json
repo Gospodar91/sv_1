@@ -1,7 +1,7 @@
 {
   "name": "task2-radency",
   "version": "0.1.0",
-  "homepage": "https://Gospodar91.github.io/sv_1",
+  "homepage": "https://gospodar91.github.io/sv_1/",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build './root'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx,tsx}",
